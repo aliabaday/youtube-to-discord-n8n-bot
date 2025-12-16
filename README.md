@@ -1,16 +1,26 @@
-# 📢 Automatically Announce YouTube Videos on Discord (with n8n)
+# 🎬 YouTube → Discord Auto Announcer (n8n)
+
+Automatically post new YouTube uploads to Discord using **n8n**, **RSS**, and **webhooks**.  
+No manual sharing. No code. Plug & play.
+
+💡 Perfect for YouTubers, content creators, and Discord communities.
 
 You can create a simple AI-powered bot in **n8n** to automatically announce your YouTube videos on Discord whenever a new video is uploaded.
 
 ---
+![n8n](https://img.shields.io/badge/n8n-automation-red)
+![Discord](https://img.shields.io/badge/Discord-webhook-5865F2)
+![YouTube](https://img.shields.io/badge/YouTube-RSS-FF0000)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🚀 Overview
+## Overview
 
-When a new video is published on your YouTube channel (or playlist), this workflow:
+## 🚀 How It Works
 
-- Detects the new upload via **RSS**
-- Sends an automatic announcement to a **Discord channel**
-- Includes the **video title, link, and thumbnail**
+1. n8n checks your YouTube RSS feed every few minutes  
+2. A new video is detected automatically  
+3. A Discord webhook posts the title, link, and thumbnail
+
 
 ---
 
@@ -92,4 +102,10 @@ Discord receives a message with:
 
 No manual sharing required anymore 🚀
 
+## ⭐ Support
+
+If this project helped you:
+- Star the repo ⭐
+- Fork it 🍴
+- Share it with your community 💙
 
